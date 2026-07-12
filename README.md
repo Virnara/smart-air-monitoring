@@ -9,12 +9,6 @@ An IoT-based real-time air quality, temperature, and humidity monitoring system 
 
 ---
 
-## 📸 Preview
-![Prototype Showcase](assets/images/prototype.jpg)
-*(Note: Visual documentation of the hardware setup and system dashboard)*
-
----
-
 ## ✨ Overview
 **Smart Air Monitoring System** is an IoT project designed to monitor ambient air quality and environmental conditions in real time. 
 
@@ -56,12 +50,18 @@ Detailed schematic mapping out the connections between the ESP32, sensors, LEDs,
 
 ---
 
-## 🛠 Tech Stack
-- **Microcontroller Framework:** Arduino C++ (ESP32 Core)
-- **Libraries:** Native `WiFi.h`, Native `HTTPClient.h`, Adafruit `DHT.h`
-- **Cloud Infrastructure:** Cloudflare Workers (Serverless API HTTP POST Router)
-- **Database Storage:** Cloudflare KV (Key-Value Database for rapid state tracking)
-- **Front-End Deployment:** Cloudflare Pages (Static Web Dashboard hosting)
+## 🛠 Tech Stack Matrix
+
+| Category | Technology / Tool | Specification / Usage |
+| :--- | :--- | :--- |
+| **Microcontroller** | ESP32 | Main Node Processor (Dual-Core SoC) |
+| **Programming Language** | Arduino C++ | Embedded Firmware Architecture |
+| **Development IDE** | Arduino IDE 2.x | Compilation and Deployment Environment |
+| **Core Libraries** | `WiFi.h`, `HTTPClient.h`, `DHT.h` | Networking Stack and Sensor Drivers |
+| **Cloud Infrastructure** | Cloudflare Workers | Serverless Gateway API HTTP POST Router |
+| **Edge Database** | Cloudflare KV | High-speed Key-Value Engine for Latest State |
+| **Front-End Dashboard** | HTML5, CSS3, JavaScript | Web Data Visualization Panel |
+| **Web Hosting** | Cloudflare Pages | Static Front-End Application Cloud Hosting |
 
 ---
 
