@@ -2,10 +2,10 @@
 
 An IoT-based real-time air quality and climate monitoring system powered by ESP32, integrating edge computing infrastructure for instant hazard alerts.
 
+[![Live Dashboard](https://img.shields.io/badge/Live--Dashboard-Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://smart-air-monitor-dashboard.pages.dev/)
 [![GitHub Repository](https://img.shields.io/badge/Repository-smart--air--monitoring-blue?style=for-the-badge&logo=github)](https://github.com/Virnara/smart-air-monitoring)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-Arduino%20C%2B%2B-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Cloud Infrastructure](https://img.shields.io/badge/Cloud-Cloudflare%20Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ---
 
@@ -23,6 +23,7 @@ By leveraging the dual-core processing capability of the ESP32, the system handl
 ---
 
 ## 🚀 Features
+- **Responsive Design:** Optimized layout for mobile, tablet, and desktop viewports.
 - **Dual-Sensor Data Acquisition:** Real-time logging of gas concentration (pollutants/smoke) alongside precision temperature and relative humidity metrics.
 - **Non-Blocking Execution Loop:** Implements advanced `millis()` timing routines to manage local sensor queries, multi-rate visual blink notifications, and cloud telemetry concurrently without thread freezing.
 - **Instant Emergency Trigger:** Automatically bypasses standard cloud transmission intervals to push immediate emergency payloads the exact moment air quality crosses the safety threshold.
@@ -46,12 +47,12 @@ By leveraging the dual-core processing capability of the ESP32, the system handl
 ---
 
 ## 💻 Software & Environment
-- **Development Environment:** Arduino IDE (v2.x or later)
-- **Programming Language:** Arduino C++ (ES6-compliant embedded syntax)
+- **Development Environment:** Arduino IDE (v2.x or later).
+- **Programming Language:** Arduino C++ (ES6-compliant embedded syntax).
 - **Core Library Dependencies:** 
   - `WiFi.h` & `HTTPClient.h` (Native ESP32 Network Stack)
-  - `DHT.h` (Adafruit Sensor Driver Ecosystem)
-- **Cloud Infrastructure:** Cloudflare Workers (Serverless HTTP API Gateway) & Cloudflare KV (Persistent Key-Value Storage).
+  - `DHT.h` (Adafruit Sensor Driver Ecosystem)[cite: 1]
+- **Cloud Infrastructure:** Cloudflare Workers (Serverless HTTP API Gateway) & Cloudflare KV (Persistent Key-Value Storage)[cite: 1].
 
 ---
 
