@@ -68,7 +68,10 @@ By leveraging the dual-core processing capability of the ESP32, the system handl
                                              ▼
                                 [ EDGE CLOUD INFRASTRUCTURE ]
                                   └── Cloudflare Workers API ──► Cloudflare KV Engine
+
 ```
+
+---
 
 ### Pin Assignment Matrix
 | Component | Physical Pin | Target Node / GPIO | Technical Specification |
