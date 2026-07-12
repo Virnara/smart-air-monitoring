@@ -68,25 +68,7 @@ By leveraging the dual-core processing capability of the ESP32, the system handl
                                              ▼
                                 [ EDGE CLOUD INFRASTRUCTURE ]
                                   └── Cloudflare Workers API ──► Cloudflare KV Engine
-```
-
----
-
-**### Pin Assignment Matrix**
-
-Component,Physical Pin,Target Node / GPIO,Technical Specification
-MQ-135 Gas,Analog Out (AO),GPIO 34,Routed via structural voltage divider step-down (~3.3V max)[cite: 1].
-DHT22 Sensor,Data Pin,GPIO 4,Tied to dedicated 3.3V power rail; digital single-bus protocol[cite: 1].
-LED Green,Anode (+),GPIO 27,Protected by 220 Ω inline current-limiting resistor[cite: 1].
-LED Red,Anode (+),GPIO 26,Protected by 220 Ω inline current-limiting resistor[cite: 1].
-2N2222 BJT,Base (B),GPIO 25,Driven through 1 kΩ resistor; acts as a low-side saturation switch[cite: 1].
-Active Buzzer,Cathode (-),Transistor Collector,Collector-Emitter loop acts as an isolated ground break[cite: 1].
-
----
-
-**### 📂 Project Structure**
-
-smart-air-monitoring/
+Pin Assignment MatrixComponentPhysical PinTarget Node / GPIOTechnical SpecificationMQ-135 GasAnalog Out (AO)GPIO 34Routed via structural voltage divider step-down (~3.3V max)[cite: 1].DHT22 SensorData PinGPIO 4Tied to dedicated 3.3V power rail; digital single-bus protocol[cite: 1].LED GreenAnode (+)GPIO 27Protected by $220\text{ }\Omega$ inline current-limiting resistor[cite: 1].LED RedAnode (+)GPIO 26Protected by $220\text{ }\Omega$ inline current-limiting resistor[cite: 1].2N2222 BJTBase (B)GPIO 25Driven through $1\text{ k}\Omega$ resistor; acts as a low-side saturation switch[cite: 1].Active BuzzerCathode (-)Transistor CollectorCollector-Emitter loop acts as an isolated ground break[cite: 1].📂 Project StructurePlaintextsmart-air-monitoring/
 ├── assets/
 │   └── images/
 │       ├── architecture.png
