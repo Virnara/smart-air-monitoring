@@ -1,4 +1,4 @@
-const API = "https://smart-air-monitor.radel-vrdna.workers.dev/";
+const API = "YOUR_URL_CLOUDFLARE_WORKER.";
 
 // DOM Binding Elements
 const gasText = document.getElementById("gas");
