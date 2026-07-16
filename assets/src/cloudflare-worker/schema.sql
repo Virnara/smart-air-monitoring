@@ -1,0 +1,7 @@
+CREATE TABLE data_smart (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  waktu DATETIME DEFAULT CURRENT_TIMESTAMP,
+  gas REAL,
+  suhu REAL,
+  kelembaban REAL
+);
