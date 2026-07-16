@@ -34,7 +34,7 @@ export default {
       try {
         // Mengambil 1 data paling terbaru di database
         const dataTerbaru = await env.DB.prepare(
-          "SELECT * FROM data_sensor ORDER BY waktu DESC LIMIT 1"
+          "SELECT * FROM data_smart ORDER BY waktu DESC LIMIT 1"
         ).first();
 
         if (!dataTerbaru) {
