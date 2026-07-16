@@ -20,7 +20,7 @@ export default {
         
         // Simpan data ke tabel D1 yang sudah disiapkan
         await env.DB.prepare(
-          "INSERT INTO data_sensor (gas, suhu, kelembaban) VALUES (?, ?, ?)"
+          "INSERT INTO data_smart (gas, suhu, kelembaban) VALUES (?, ?, ?)"
         ).bind(data.gas, data.suhu, data.kelembaban).run();
 
         return new Response("Data sukses disimpan!", { status: 200, headers: corsHeaders });
