@@ -75,7 +75,8 @@ smart-air-monitoring/
 │       ├── prototype.jpg
 │       └── wiring.png
 ├── src/
-│    ├── cloudflare-worker/
+│    ├── cloudflare-
+│    │   ├── schema.sql
 │    │   └── worker.js
 │    ├── esp32/
 │    │   └── smart_air_monitor.ino
