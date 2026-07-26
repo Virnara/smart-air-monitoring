@@ -45,6 +45,7 @@ Detailed schematic mapping out the connections between the ESP32, sensors, LEDs,
 | **DHT22 Sensor** | Data Pin | `GPIO 4` | Connected to 3.3V power rail; digital single-bus protocol. |
 | **LED Green** | Anode (+) | `GPIO 27` | Protected by $220\text{ }\Omega$ inline current-limiting resistor. |
 | **LED Red** | Anode (+) | `GPIO 26` | Protected by $220\text{ }\Omega$ inline current-limiting resistor. |
+| **LED Yellow** | Anode (+) | `GPIO 14` | Protected by $220\text{ }\Omega$ inline current-limiting resistor. |
 | **2N2222 BJT** | Base (B) | `GPIO 25` | Driven through $1\text{ k}\Omega$ resistor; acts as a low-side saturation switch. |
 | **Active Buzzer** | Cathode (-) | Transistor Collector | Collector-Emitter loop acts as an isolated ground break. |
 
