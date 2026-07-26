@@ -193,7 +193,7 @@ void loop() {
   Serial.println(status);
 
   // -------------------------------------------------
-  // 3. PENGIRIMAN DATA DATA KE CLOUD (JEDA 15 DETIK)
+  // 3. PENGIRIMAN DATA DATA KE CLOUD
   // -------------------------------------------------
   if(millis() - previousMillis >= intervalCloud){
     previousMillis = millis();
