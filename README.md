@@ -1,8 +1,3 @@
-Berikut adalah **file README.md lengkap dan siap pakai** (Full Markdown Raw) yang sudah disempurnakan berdasarkan rekomendasi dan masukan dari saran sebelumnya.
-
-Kamu bisa langsung menyalin (*copy-paste*) seluruh kode Markdown di bawah ini ke file `README.md` utama pada repositori GitHub kamu:
-
-```markdown
 # 🌱 Smart Air Monitoring System
 
 An IoT-based real-time air quality, temperature, and humidity monitoring system using ESP32 and cloud-based edge infrastructure.
